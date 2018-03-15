@@ -113,11 +113,33 @@ a{
 }
 
 
-
 .project-image{
     border-radius: 50%;
 }
 
+
+/* journey */
+
+.journey-item {
+  padding: 1em 3em 1em;
+  position: relative;
+  border-left: 0.5em solid #4ABDAC;
+  
+}
+
+
+.journey-item::after {
+    width: 1em;
+    height: 1em;
+    display: block;
+    top: 1em;
+    position: absolute;
+    left: -7px;
+    border-radius: 1em;
+    content: '';
+    border: 0.5em solid #4ABDAC;
+    background: #4ABDAC;
+  }
 
 
 /* media queries for 800px and less */
@@ -154,7 +176,6 @@ a{
   }
 
 } 
-
 
 /*Styles for parallax */
 
