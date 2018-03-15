@@ -53,7 +53,7 @@ a{
 
 
 .sidenav a {
-    padding: 0px 4px 4px 0px;
+    padding: 0px 0.1em 0.1em 0px;
     text-decoration: none;
     font-size: 20px;
     color: #078898;
@@ -67,8 +67,8 @@ a{
 
 
 .sidenavIcons{
-  height:30px;
-  width:30px;
+  height:1.5em;
+  width:1.5em;
 }
 
 
@@ -183,7 +183,7 @@ a{
     min-height: 50vh;
     background: transparent;
     border: 1px solid;
-    padding: 10px;
+    padding: 0.7em;
     box-shadow: 2px 5px #078898;
 
 }
